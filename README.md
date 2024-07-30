@@ -13,9 +13,9 @@ don`t forget to [thanks US](https://t.me/BinaryQuest)
 
 ##
 
-**If you need any more modes in repo or If you find out any bugs, mention in [@Sahil_x_official](https://www.telegram.dog/binaryQuest)**
+**If you need any more modes in repo or If you find out any bugs, mention in [@Team_dst](https://www.telegram.dog/binaryQuest)**
 
-**Make sure to see [contributing.md](https://github.com/CodeXBotz/File-Sharing-Bot/blob/main/CONTRIBUTING.md) for instructions on contributing to the project!**
+**Make sure to see [contributing.md](https://github.com/madara1188/File-Sharing-/blob/main/CONTRIBUTING.md) for instructions on contributing to the project!**
 
 
 
@@ -49,13 +49,13 @@ don`t forget to [thanks US](https://t.me/BinaryQuest)
 The fastest way to deploy the application is to click the **Deploy to Koyeb** button below.
 
 
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/CodeXBotz/File-Sharing-Bot&branch=koyeb&name=filesharingbot)
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/madara1188/File-Sharing&branch=koyeb&name=filesharingbot)
 
 
 #### Deploy in your VPS
 ````bash
-git clone https://github.com/CodeXBotz/File-Sharing-Bot
-cd File-Sharing-Bot
+git clone https://github.com/madara1188/File-Sharing
+cd File-Sharing-
 pip3 install -r requirements.txt
 # <Create config.py appropriately>
 python3 main.py
@@ -87,7 +87,7 @@ python3 main.py
 * `DATABASE_URL` Your mongo db url
 * `DATABASE_NAME` Your mongo db session name
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/madara1188/File-Sharing-/blob/main/README.md#start_message'>fillings</a>
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
 * `PROTECT_CONTENT` Optional: True if you need to prevent files from forwarding
